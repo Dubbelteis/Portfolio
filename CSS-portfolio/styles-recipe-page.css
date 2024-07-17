@@ -1,0 +1,146 @@
+:root {
+    --ff-main: "Outfit", sans-serif;
+    --ff-accent: "Young Serif", serif;
+    --f-color: hsl(24, 5%, 18%);
+}
+
+body {
+    font-family: var(--ff-main);
+    color: var(--f-color);
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: white;
+    width: 100%;
+    max-width: 650px;
+    padding: 2rem;
+    margin-block: 4rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-container>img {
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1312 / 600;
+    border-radius: 12px;
+}
+
+.prep-container {
+    border-radius: 12px;
+    background-color: hsl(330, 100%, 98%);
+    width: 100;
+    padding: 0;
+    margin: 0;
+}
+
+.prep-container>h4 {
+    padding-left: 1.5rem;
+}
+
+.horizon {
+    width: 100%;
+    color: hsl(30, 18%, 95%);
+    margin-top: 20px;
+}
+
+ul,
+ol {
+    font-family: var(--ff-main);
+}
+
+li {
+    margin-bottom: 12px;
+    padding-left: 1rem
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+ul.prep {
+    margin: 0;
+    padding: 1rem;
+}
+
+.ingredients {
+    padding: 0;
+    margin: 0;
+}
+
+.ul-ingredients {
+    list-style-type: square;
+    padding: 0rem 1rem;
+    margin: 0;
+}
+
+.instructions {
+    padding: 0rem 1rem;
+    margin: 0;
+}
+
+.a {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+td {
+    padding: 12px 2rem;
+    text-align: left;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.b {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-family: var(--ff-accent);
+    color: black;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: var(--ff-accent);
+    color: hsl(14, 45%, 36%);
+}
+
+h4 {
+    color: hsl(332, 51%, 32%);
+}

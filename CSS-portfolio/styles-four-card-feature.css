@@ -1,0 +1,137 @@
+:root {
+    --ff-main: "Poppins", sans-serif;
+}
+
+body {
+    font-family: var(--ff-main);
+    color: hsl(234, 12%, 34%);
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.top-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.text-container {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 3rem 1rem 1rem;
+}
+
+@media (max-width: 600px) {
+    .text-container {
+        width: 100%;
+        text-align: center;
+        padding: 3rem 1rem 1rem;
+    }
+}
+
+.upper-title {
+    font-weight: 200;
+    margin: 0rem 0rem;
+}
+
+.main-title {
+    font-weight: 600;
+    margin: 0rem 0rem;
+}
+
+.sub-title {
+    font-weight: 200;
+    margin: 0.5rem 0rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+}
+@media (max-width: 600px) {
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.card-title {
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.card-text {
+    font-weight: 200;
+}
+
+.green {
+    align-self: center;
+    width: 100%;
+    max-width: 300px;
+    max-height: 200px;
+    background-color: white;
+    border-radius: 8px;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    margin: 0rem 1rem;
+    padding: 1.5rem 1.5rem;
+    box-shadow: 5px 10px 20px #888888;
+}
+
+.red {
+    width: 100%;
+    max-width: 300px;
+    max-height: 200px;
+    background-color: white;
+    border-radius: 8px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    margin: 1rem;
+    padding: 1.5rem 1.5rem;
+    box-shadow: 5px 10px 20px #888888;
+}
+
+.yellow {
+    width: 100%;
+    max-width: 300px;
+    max-height: 200px;
+    background-color: white;
+    border-radius: 8px;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    margin: 1rem;
+    padding: 1.5rem 1.5rem;
+    box-shadow: 5px 10px 20px #888888;
+}
+
+.blue {
+    align-self: center;
+    width: 100%;
+    max-width: 300px;
+    max-height: 200px;
+    background-color: white;
+    border-radius: 8px;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    margin: 0rem 1rem;
+    padding: 1.5rem 1.5rem;
+    box-shadow: 5px 10px 20px #888888;
+}
+
+.icon {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end ;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
