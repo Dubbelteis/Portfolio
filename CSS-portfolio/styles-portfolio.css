@@ -2,11 +2,17 @@
     --ff-main: "Quicksand", sans-serif;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: var(--ff-main);
     color: whitesmoke;
     font-size: 24px;
-    background-color: rgb(4, 4, 58);
+    background-color: rgb(1, 1, 25);
     width: 100%;
     margin: 0;
     padding: 0;
@@ -36,13 +42,13 @@ body {
 
 div.gallery {
     margin: 5px;
-    border: 1px solid rgb(94, 94, 224);
+    border: 1px solid rgb(16, 0, 164);
     float: left;
     width: 280px;
 }
   
 div.gallery:hover {
-    border: 1px solid rgb(16, 16, 92);
+    border: 1px solid rgb(252, 252, 252);
 }
   
 div.gallery img {
@@ -53,5 +59,5 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
-    background-color: rgb(24, 24, 121);
+    background-color: rgb(16, 0, 164);
 }
